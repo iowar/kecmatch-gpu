@@ -70,7 +70,7 @@ void *metrics(void *data) {
     char spin[4] = {'-', '\\', '|', '/'};
 
     while (1) {
-	for (int i = 0; 1000000; i++) {
+	for (int i = 0; i < 1000000; i++) {
 	    usleep(100000);
 	    printf("\33[2K\r Searching %c ", spin[i % 4]);
 	}
@@ -144,4 +144,5 @@ int main(int argc, char **argv) {
 
     HANDLE_ERROR(cudaFree(dev_f));
     HANDLE_ERROR(cudaFree(dev_a));
+    exit(EXIT_SUCCESS);
 }
