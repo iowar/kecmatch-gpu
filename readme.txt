@@ -1,5 +1,6 @@
 # kecmatch-gpu
 Finds matching solidity function signatures using GPU
+calculations on the CPU can take hours
 
 gas saving
 ----------
