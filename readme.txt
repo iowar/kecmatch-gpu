@@ -12,7 +12,7 @@ $ ./kecmatch64_linux -f swapy -a "(uint256,address)" -s 0x00000000
  Searching | thread => 1139 method => swapy519223005692159(uint256,address) method id => 0x00000000
  Searching - thread => 1152 method => swapy519223005692159(uint256,address) method id => 0x00000000
  
- +------------+-------------+------------+----------------+
++------------+-------------+------------+----------------+
 | card       |  find avg.  | test input |  tester        |
 +------------+-------------+------------+----------------+
 | RTX 3050   |  16.875 sec |  8         |  @iowar        |
